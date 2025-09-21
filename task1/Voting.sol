@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.30;
 
+//投票
 contract Voting {
     //得票mapping
     mapping(address => uint256) private tickets;

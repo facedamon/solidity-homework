@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.30;
 
+//字符串倒排
 contract Reverse {
     function reverse_string(string memory str) public pure returns (string memory) {
        bytes memory s = bytes(str);
